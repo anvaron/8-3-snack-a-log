@@ -1,0 +1,74 @@
+body {
+  font-family: 'Overlock', cursive;
+}
+
+.App {
+  text-align: center;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+main {
+  width: 900px;margin: 0 auto;  
+}
+h1 {
+  font-family: 'Carter One', cursive;  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* NAVBAR */
+nav {
+  padding: 1em 3em;margin-bottom: 1em; display: flex;justify-content: space-between;align-items: center;
+  background-color: rgb(37, 36, 34);
+}
+nav a {
+  text-decoration: none;color: rgb(235, 94, 40);
+}
+/* SNACKS LIST */
+.Snacks { 
+  padding: 1rem;display: grid;grid-template-columns: 1fr 1fr;gap: 1rem; 
+}
+.Snacks img { width: 150px; }
+.Snack { 
+  padding: 1em;display: flex;flex-wrap: wrap;justify-content: space-between;
+  border: 1px solid #CDCDCD;border-radius: 10px;
+}
+.Snack h4 { 
+  width: 100%;margin: 0;display: flow-root; font-size: 1em;text-align: center;
+}
+/* .Snack h4 > img { 
+  width: 50%;
+} */
+.Snack .snack__image { 
+  width: 150px;margin: auto;padding: 1em;background-color: rgb(255, 252, 242);
+}

@@ -7,8 +7,10 @@ let id = 0;
 describe("Show Page", () => {
   before(() => {
     cy.request({
-      method: "POST",
-      url: `${API}/snacks`,
+      method: "GET",
+      //url: `${API}/snacks`,
+      url: `http://localhost:3000/snacks`,
+      failOnStatusCode: false,
       body: {
         name: "Raspberries",
         image: "https://picsum.photos/id/102/300/300",
@@ -19,8 +21,11 @@ describe("Show Page", () => {
       },
       log: true,
     }).then((newSnack) => {
+      console.log(newSnack)
       id = newSnack.body.payload.id;
-      cy.visit(`${URL}/snacks/${id}`);
+      //id = newSnack.body.payload.id;
+      //cy.visit(`${URL}/snacks/${id}`);
+      cy.visit(`${URL}/snacks/2}`);
     });
   });
 

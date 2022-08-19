@@ -27,14 +27,16 @@ describe("index page", () => {
 
   it("has a solid heart, if the snack is healthy", () => {
     cy.contains("Strawberries")
-      .find("h4 img")
+      .find("h4 img.icon")
       .should("have.attr", "alt", "healthy food");
   });
+
   it("has a heart outline, if the snack is unhealthy", () => {
     cy.contains("Healthy Birthday Cake Square")
-      .find("h4 img")
+      .find("h4 img.icon")
       .should("have.attr", "alt", "unhealthy food");
   });
+  
   describe("Index Page CSS", () => {
     it("has body with font Overlock, cursive", () => {
       cy.get("body")

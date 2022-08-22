@@ -152,16 +152,16 @@ export default function SnackDetails() {
             </div>
           </div>
           <div class="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
-            <div className="flex-shrink-0 absolute top-2 right-2">
+            <div className="flex-shrink-0 absolute top-2 right-2 z-50">
             <div className=" flex 
                           items-center 
                           mx-auto justify-center 
-                          h-12 
-                          w-12 
+                          h-20 
+                          w-20 
                           rounded-md 
                           bg-indigo-200 
                           text-white
-                          p-2"
+                          p-4"
             >
             {snack.is_healthy 
               ? 

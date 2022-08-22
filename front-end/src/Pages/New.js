@@ -2,9 +2,15 @@ import SnackNewForm from "../Components/SnackNewForm";
 
 export default function New() {
   return (
-    <div className="New">
-      <h1>New Snack</h1>
+    <main className="block ">
+      <div class="header p-12">
+        <div class="title">
+          <p class="justify-center items-center text-center text-4xl font-bold text-gray-800 mb-4">
+          New Snack
+          </p>
+        </div>
+      </div>
       <SnackNewForm />
-    </div>
+    </main>
   );
 }

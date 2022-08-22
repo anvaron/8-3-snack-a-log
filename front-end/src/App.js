@@ -12,7 +12,7 @@ import Edit from "./Pages/Edit";
 import New from "./Pages/New";
 import NotFound from "./Pages/NotFound";
 
-import "./App.css";
+//import "./App.css";
 
 export default function App() {
   return (

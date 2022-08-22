@@ -20,10 +20,10 @@ export default function Snacks() {
   }, []);
 
   return (
-    <section className="Snacks">
+    <div className="sm:flex flex-wrap justify-center items-center text-center gap-8 bg-gray-100">
       {snacks.map((snack) => {
         return <Snack key={snack.id} snack={snack} />;
       })}
-    </section>
+    </div>
   );
 }

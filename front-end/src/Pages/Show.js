@@ -2,9 +2,15 @@ import SnackDetails from "../Components/SnackDetails";
 
 export default function Show() {
   return (
-    <div className="Show">
-      <h1>Snack details</h1>
+    <main className="sm:flex flex-wrap justify-center items-center text-center">
+      <div class="header flex items-end justify-between mb-12 p-12">
+        <div class="title">
+          <p class="text-4xl font-bold text-gray-800 mb-4">
+          Snack details
+          </p>
+        </div>
+      </div>
       <SnackDetails />
-    </div>
+    </main>
   );
 }

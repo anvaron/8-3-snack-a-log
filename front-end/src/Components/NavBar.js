@@ -33,8 +33,9 @@ export default function NavBar() {
     <header className=" body-font bg-indigo-600 sticky top-0 z-50">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-          <a className="mr-5 text-white hover:text-gray-900 font-bold" href="/snacks">Snacks</a>
-          <a className="mr-5 text-white hover:text-gray-900 font-bold" href="/snacks/new">Project</a>
+          <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks">Snacks</a>
+          <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/about">Project</a>
+          <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/team">Team</a>
         </nav>
 
         <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
@@ -56,7 +57,7 @@ export default function NavBar() {
           <button
             onClick={() => handleClick()}
             type="button"
-            className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+            className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 text-xl focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
           >
             Create Snack
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">

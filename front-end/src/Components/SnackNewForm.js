@@ -158,6 +158,14 @@ export default function SnackNewForm() {
               type="checkbox"
               onChange={handleCheckboxChange}
               checked={snack.is_healthy}
+              className="
+              p-2
+                        m-4
+                        text-sm 
+                        border-gray-200
+                        border-8
+                        rounded-lg
+              "
             />
             </div>
             <div class="flex items-center mt-10">

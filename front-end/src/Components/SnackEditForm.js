@@ -167,7 +167,8 @@ export default function SnackEditForm() {
               className="
                         m-4
                         text-sm 
-                        border-gray-200 
+                        border-gray-200
+                        border-8
                         rounded-lg
               "
             />

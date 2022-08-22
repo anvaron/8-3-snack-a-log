@@ -49,7 +49,7 @@ export default function SnackNewForm() {
       <div class="flex items-center justify-center h-screen">
         <div className="w-6/12 block p-10 bg-white  rounded-lg shadow-lg lg:p-12 lg:col-span-3">
           <form >
-          <div class="mt-4 mb-4">
+          <div class="mt-6 mb-6">
             <label htmlFor="name">Name:</label>
             <input
               id="name"
@@ -57,55 +57,101 @@ export default function SnackNewForm() {
               value={snack.name}
               onChange={handleTextChange}
               placeholder="Snack's name"
-              className="p-8 rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="image">Image: </label>
             <input
               id="image"
               type="text"
               value={snack.image}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              placeholder="Input the image's URL"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
-            <div class="mt-4 mb-4 ">
+            <div class="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
+            <div class="mt-6 mb-6 ">
             <label htmlFor="fiber">Fiber:</label>
             <input
               id="fiber"
               type="number"
               value={snack.fiber}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              placeholder="0"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="protein">Protein:</label>
             <input
               id="protein"
               type="number"
               value={snack.protein}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              placeholder="0"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="added_sugar">Added Sugar:</label>
             <input
               id="added_sugar"
               type="number"
               value={snack.added_sugar}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              placeholder="0"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            </div>
+            <div class="mt-6 mb-6">
             <label htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"

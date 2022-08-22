@@ -59,7 +59,7 @@ export default function SnackEditForm() {
       <div class="flex items-center justify-center h-screen ">
         <div className="w-6/12 block p-10 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
-          <div class="mt-4 mb-4">
+          <div class="mt-6 mb-6">
             <label htmlFor="name">Name:</label>
             <input
               id="name"
@@ -70,7 +70,7 @@ export default function SnackEditForm() {
               className=" 
                         border-gray-200 
                         border-8 
-                        p-8 
+                        p-6 
                         w-full 
                         text-xl
                         border-gray-200 
@@ -79,7 +79,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="image">Image: </label>
             <input
               id="image"
@@ -87,19 +87,19 @@ export default function SnackEditForm() {
               value={snack.image}
               onChange={handleTextChange}
               className=" 
-              border-gray-200 
-              border-8 
-              p-8 
-              w-full 
-              text-xl
-              border-gray-200 
-              rounded-lg
+                        border-gray-200 
+                        border-8 
+                        p-6 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
               "
               required
             />
             </div>
-            <div class="grid grid-cols-3 gap-4 sm:grid-cols-1" >
-            <div class="mt-4 mb-4 ">
+            <div class="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
+            <div class="mt-6 mb-6">
             <label htmlFor="fiber">Fiber:</label>
             <input
               id="fiber"
@@ -109,7 +109,7 @@ export default function SnackEditForm() {
               className="
                         border-gray-200 
                         border-8 
-                        p-8 
+                        p-6 
                         w-full 
                         text-xl
                         border-gray-200 
@@ -118,7 +118,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="protein">Protein:</label>
             <input
               id="protein"
@@ -128,7 +128,7 @@ export default function SnackEditForm() {
               className=" 
                         border-gray-200 
                         border-8 
-                        p-8 
+                        p-6 
                         w-full 
                         text-xl
                         border-gray-200 
@@ -137,7 +137,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="added_sugar">Added Sugar:</label>
             <input
               id="added_sugar"
@@ -147,7 +147,7 @@ export default function SnackEditForm() {
               className="
                         border-gray-200 
                         border-8 
-                        p-8 
+                        p-6 
                         w-full 
                         text-xl
                         border-gray-200 
@@ -157,7 +157,7 @@ export default function SnackEditForm() {
             />
             </div>
             </div>
-            <div class="mt-4 mb-4">
+            <div class="mt-6 mb-6">
             <label htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"

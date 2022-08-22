@@ -56,8 +56,8 @@ export default function SnackEditForm() {
 
   return (
     <div class="p-10 bg-gray-100 items-center ">
-      <div class="flex items-center justify-center h-screen">
-        <div className="w-6/12 block p-10 bg-white  rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+      <div class="flex items-center justify-center h-screen ">
+        <div className="w-6/12 block p-10 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
           <div class="mt-4 mb-4">
             <label htmlFor="name">Name:</label>
@@ -67,7 +67,15 @@ export default function SnackEditForm() {
               value={snack.name}
               onChange={handleTextChange}
               placeholder="Snack's name"
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className=" 
+                        border-gray-200 
+                        border-8 
+                        p-8 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
@@ -78,10 +86,19 @@ export default function SnackEditForm() {
               type="text"
               value={snack.image}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className=" 
+              border-gray-200 
+              border-8 
+              p-8 
+              w-full 
+              text-xl
+              border-gray-200 
+              rounded-lg
+              "
               required
             />
             </div>
+            <div class="grid grid-cols-3 gap-4 sm:grid-cols-1" >
             <div class="mt-4 mb-4 ">
             <label htmlFor="fiber">Fiber:</label>
             <input
@@ -89,7 +106,15 @@ export default function SnackEditForm() {
               type="number"
               value={snack.fiber}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-8 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
@@ -100,7 +125,15 @@ export default function SnackEditForm() {
               type="number"
               value={snack.protein}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className=" 
+                        border-gray-200 
+                        border-8 
+                        p-8 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
             </div>
@@ -111,9 +144,18 @@ export default function SnackEditForm() {
               type="number"
               value={snack.added_sugar}
               onChange={handleTextChange}
-              className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
+              className="
+                        border-gray-200 
+                        border-8 
+                        p-8 
+                        w-full 
+                        text-xl
+                        border-gray-200 
+                        rounded-lg
+              "
               required
             />
+            </div>
             </div>
             <div class="mt-4 mb-4">
             <label htmlFor="is_healthy">Healthy:</label>
@@ -122,6 +164,12 @@ export default function SnackEditForm() {
               type="checkbox"
               onChange={handleCheckboxChange}
               checked={snack.is_healthy}
+              className="
+                        m-4
+                        text-sm 
+                        border-gray-200 
+                        rounded-lg
+              "
             />
             </div>
             <div class="flex items-center mt-10">

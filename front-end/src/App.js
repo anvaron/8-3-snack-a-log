@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 // COMPONENTS
 import NavBar from "./Components/NavBar";
+import Footer from "./Components/Footer";
 
 // PAGES
 import Home from "./Pages/Home";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/snacks/new" element={<New />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

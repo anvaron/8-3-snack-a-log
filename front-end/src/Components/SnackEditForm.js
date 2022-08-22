@@ -41,6 +41,10 @@ export default function SnackEditForm() {
     setSnack({ ...snack, [event.target.id]: event.target.value });
   };
 
+  const handleCheckboxChange = () => {
+    setSnack({ ...snack, is_healthy: !snack.is_healthy });
+  };
+
   const handleClick = () => {
     navigate(`/snacks`);
   };
@@ -109,6 +113,15 @@ export default function SnackEditForm() {
               onChange={handleTextChange}
               className=" rounded-lg flex-1 border border-gray-200 w-full py-2 px-4 bg-white text-gray-700 placeholder-gray-400 shadow-sm text-base focus:outline-none focus:ring-2 focus:ring-purple-600 focus:border-transparent"
               required
+            />
+            </div>
+            <div class="mt-4 mb-4">
+            <label htmlFor="is_healthy">Healthy:</label>
+            <input
+              id="is_healthy"
+              type="checkbox"
+              onChange={handleCheckboxChange}
+              checked={snack.is_healthy}
             />
             </div>
             <div class="flex items-center mt-10">

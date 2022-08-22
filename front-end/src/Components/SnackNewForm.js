@@ -17,6 +17,7 @@ export default function SnackNewForm() {
   });
 
   const newSnack = (snack) => {
+    console.log(snack)
     axios
       .post(`${API}/snacks`, snack)
       .then(() => {
@@ -30,11 +31,15 @@ export default function SnackNewForm() {
     setSnack({ ...snack, [event.target.id]: event.target.value });
   };
 
+  const handleCheckboxChange = () => {
+    setSnack({ ...snack, is_healthy: !snack.is_healthy });
+  };
+
   const handleClick = () => {
     navigate(`/snacks`);
   };
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
     //event.preventDefault();
     newSnack(snack);
   };
@@ -100,6 +105,15 @@ export default function SnackNewForm() {
               required
             />
             </div>
+            <div class="mt-4 mb-4">
+            <label htmlFor="is_healthy">Healthy:</label>
+            <input
+              id="is_healthy"
+              type="checkbox"
+              onChange={handleCheckboxChange}
+              checked={snack.is_healthy}
+            />
+            </div>
             <div class="flex items-center mt-10">
                   <button
                     onClick={() => handleClick()}
@@ -108,7 +122,6 @@ export default function SnackNewForm() {
                   >
                     Back
                   </button>
-                  
                   <button
                     onClick={() => handleSubmit()}
                     type="button" 

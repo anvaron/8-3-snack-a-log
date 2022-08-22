@@ -55,11 +55,11 @@ export default function SnackEditForm() {
   };
 
   return (
-    <div class="p-10 bg-gray-100 items-center ">
-      <div class="flex items-center justify-center h-screen ">
+    <div className="p-10 bg-gray-100 items-center ">
+      <div className="flex items-center justify-center h-screen ">
         <div className="w-6/12 block p-10 bg-white rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
-          <div class="mt-6 mb-6">
+          <div className="mt-6 mb-6">
             <label htmlFor="name">Name:</label>
             <input
               id="name"
@@ -79,7 +79,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-6 mb-6">
+            <div className="mt-6 mb-6">
             <label htmlFor="image">Image: </label>
             <input
               id="image"
@@ -98,8 +98,8 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
-            <div class="mt-6 mb-6">
+            <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
+            <div className="mt-6 mb-6">
             <label htmlFor="fiber">Fiber:</label>
             <input
               id="fiber"
@@ -118,7 +118,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-6 mb-6">
+            <div className="mt-6 mb-6">
             <label htmlFor="protein">Protein:</label>
             <input
               id="protein"
@@ -137,7 +137,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div class="mt-6 mb-6">
+            <div className="mt-6 mb-6">
             <label htmlFor="added_sugar">Added Sugar:</label>
             <input
               id="added_sugar"
@@ -157,7 +157,7 @@ export default function SnackEditForm() {
             />
             </div>
             </div>
-            <div class="mt-6 mb-6">
+            <div className="mt-6 mb-6">
             <label htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"
@@ -173,11 +173,11 @@ export default function SnackEditForm() {
               "
             />
             </div>
-            <div class="flex items-center mt-10">
+            <div className="flex items-center mt-10">
                   <button
                     onClick={() => handleClick()}
                     type="button" 
-                    class="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-2"
+                    className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-2"
                   >
                     Back
                   </button>
@@ -185,12 +185,11 @@ export default function SnackEditForm() {
                   <button
                     onClick={() => handleSubmit()}
                     type="button" 
-                    class="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-2"
+                    className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-2"
                   >
                     Submit
                   </button>
                 </div>
-            
           </form>
         </div>
       </div>

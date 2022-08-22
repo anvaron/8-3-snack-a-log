@@ -11,8 +11,8 @@ export default function Project() {
                         The Snack a Log project is based on the PERN Stack
                     </h2>
                     <p class="mb-8 leading-loose text-gray-500 dark:text-gray-300">
-                        During the Pursuit's Software Engineering program, this project was the second one under the pair programming modality; therefore, 
-                        it was a exceptional oportunnity in terms of practicing working in teams which will be a critical skill for our future career.
+                      In connection with the Pursuit Software Engineering Program, <b>Snack a Log</b> was the second project under the pair programming modality. It was
+                      an exceptional opportunity to practice teamwork which will be a critical skill for our future careers.
                     </p>
                     {/* <div class="w-full md:w-1/3">
                         <button type="button" class="py-2 px-4  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">

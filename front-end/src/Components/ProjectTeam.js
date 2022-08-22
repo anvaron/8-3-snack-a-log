@@ -3,11 +3,11 @@ export default function ProjectTeam() {
   return (
     
 <div class="box p-4 bg-blue-100">
-    <p class="mt-10 text-center text-4xl font-bold text-gray-800">
+    <p class="mt-10 mb-10 text-center text-4xl font-bold text-gray-800">
         Professional team
     </p>
     <p class="text-center mb-10 text-xl font-normal text-gray-500">
-        Meat the developers team behind the project
+        Meet the developers team behind the project
     </p>
     <div class="items-center justify-center h-screen flex items-center space-y-24 md:space-y-0 flex-col md:flex-row justify evenly">
         <div class="p-4 relative">

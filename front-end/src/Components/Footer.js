@@ -32,10 +32,10 @@ export default function Footer() {
                   <a aria-current="page" href="#" class="hover:text-gray-700 dark:hover:text-white font-semibold">
                       Home
                   </a>
-                  <a aria-current="page" href="#" class="hover:text-gray-700 dark:hover:text-white font-semibold">
-                      Snacks
+                  <a aria-current="page" href="/snacks/project" class="hover:text-gray-700 dark:hover:text-white font-semibold">
+                      Project
                   </a>
-                  <a aria-current="page" href="#" class="hover:text-gray-700 dark:hover:text-white font-semibold">
+                  <a aria-current="page" href="/snacks/team" class="hover:text-gray-700 dark:hover:text-white font-semibold">
                       Team
                   </a>
               </nav>

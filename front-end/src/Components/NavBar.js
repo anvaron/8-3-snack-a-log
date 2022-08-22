@@ -34,7 +34,7 @@ export default function NavBar() {
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks">Snacks</a>
-          <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/about">Project</a>
+          <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/project">Project</a>
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/team">Team</a>
         </nav>
 

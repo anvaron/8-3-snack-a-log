@@ -8,7 +8,7 @@ export default function ProjectTeam() {
         <p className="text-center mb-10 text-xl font-normal text-gray-500">
             Meet the developers team behind the project
         </p>
-        <div className="items-center justify-center h-screen flex items-center space-y-24 md:space-y-0 sm:pt-64 flex-col md:flex-row justify evenly">
+        <div className="items-center justify-center h-screen flex items-center space-y-24 md:space-y-0 md:pt-64 flex-col md:flex-row justify evenly">
             <div className="p-4 relative">
                 <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
                     <a href="#" className="block relative">

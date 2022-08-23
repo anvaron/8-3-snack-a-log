@@ -69,8 +69,8 @@ export default function Footer() {
                   </span>
                   <span className="mt-7 md:mt-1">
                       Created by
-                      <a className="text-blue-800 hover:text-primary-gray-20 font-semibold ml-1" href="https://www.linkedin.com/in/crabiller/">
-                          Team<b className="text-2xl text-red-400">9</b>
+                      <a className="text-blue-800 hover:text-primary-gray-20 font-semibold ml-1" href="#">
+                        Team<b className="text-2xl text-red-400">9</b>
                       </a>
                   </span>
               </div>

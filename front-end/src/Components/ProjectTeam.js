@@ -24,7 +24,7 @@ export default function ProjectTeam() {
 												Fullstack dev
 											</p>
 											<p className="text-md text-gray-500 w-60 dark:text-gray-400 mx-auto py-4 font-light">
-												Full stack software engineer with great passion for working with cars software technologies and computers.
+												Full stack software engineer with great passion for working with car's software systems and computers.
 											</p>
                     </div>
                     <div className="pt-8 flex border-t border-gray-200 w-40 mx-auto text-gray-500 items-center justify-between">

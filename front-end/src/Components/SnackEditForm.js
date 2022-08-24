@@ -60,7 +60,7 @@ export default function SnackEditForm() {
         <div className="block p-10 bg-white w-full md:w-6/12 mb-64 md:md-0 rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
           <div className="mt-6 mb-6">
-            <label htmlFor="name">Name:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="name">Name:</label>
             <input
               id="name"
               type="text"

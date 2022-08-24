@@ -47,7 +47,7 @@ export default function SnackNewForm() {
   return (
     <div className="p-10 bg-gray-100 items-center ">
       <div className="flex items-center justify-center h-screen">
-        <div className="w-6/12 block p-10 bg-white sm:w-full rounded-lg shadow-lg lg:p-12 lg:col-span-3">
+        <div className="block p-10 bg-white w-full md:w-6/12 rounded-lg shadow-lg lg:p-12 lg:col-span-3">
           <form >
           <div className="mt-6 mb-6">
             <label htmlFor="name">Name:</label>

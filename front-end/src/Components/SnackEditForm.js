@@ -75,6 +75,7 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow
               "
               required
             />

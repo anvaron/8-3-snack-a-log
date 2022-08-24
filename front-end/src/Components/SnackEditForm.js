@@ -60,7 +60,7 @@ export default function SnackEditForm() {
         <div className="block p-10 bg-white w-full md:w-6/12 mb-64 md:md-0 rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
           <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="name">Name:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="name">Name:</label>
             <input
               id="name"
               type="text"
@@ -75,13 +75,13 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
               required
             />
             </div>
             <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="image">Image: </label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="image">Image: </label>
             <input
               id="image"
               type="text"
@@ -95,14 +95,14 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
               required
             />
             </div>
             <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
             <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="fiber">Fiber:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="fiber">Fiber:</label>
             <input
               id="fiber"
               type="number"
@@ -116,13 +116,13 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
               required
             />
             </div>
             <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="protein">Protein:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="protein">Protein:</label>
             <input
               id="protein"
               type="number"
@@ -136,13 +136,13 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
               required
             />
             </div>
             <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="added_sugar">Added Sugar:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="added_sugar">Added Sugar:</label>
             <input
               id="added_sugar"
               type="number"
@@ -156,14 +156,14 @@ export default function SnackEditForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
               required
             />
             </div>
             </div>
             <div className="mt-6 mb-6">
-            <label className="text-xl font-semibold text-indigo-400" htmlFor="is_healthy">Healthy:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"
               type="checkbox"
@@ -175,7 +175,7 @@ export default function SnackEditForm() {
                         border-gray-200
                         border-8
                         rounded-lg
-                        shadow-lg
+                        shadow-md
               "
             />
             </div>
@@ -183,7 +183,7 @@ export default function SnackEditForm() {
                   <button
                     onClick={() => handleClick()}
                     type="button" 
-                    className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-2"
+                    className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
                   >
                     Back
                   </button>
@@ -191,7 +191,7 @@ export default function SnackEditForm() {
                   <button
                     onClick={() => handleSubmit()}
                     type="button" 
-                    className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-2"
+                    className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-4"
                   >
                     Submit
                   </button>

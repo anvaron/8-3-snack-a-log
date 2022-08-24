@@ -39,11 +39,22 @@ export default function NavBar() {
           </svg>
           <span className="ml-1 text-3xl font-extrabold text-white">'Log</span>
         </a>
-        <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+        <div className="lg:w-2/5 inline-flex lg:justify-end ml-0 md:ml-5 lg:ml-0">
           <button
             onClick={() => handleClick()}
             type="button"
-            className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 text-xl focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"
+            className=" inline-flex 
+                        items-center 
+                        bg-gray-100 
+                        border-0 
+                        py-1 px-3 
+                        text-xl 
+                        focus:outline-none 
+                        hover:bg-gray-200 
+                        rounded 
+                        text-base 
+                        mt-4 md:mt-0
+            "
           >
             Create Snack
             <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-1" viewBox="0 0 24 24">

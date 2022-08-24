@@ -22,7 +22,7 @@ export default function Footer() {
   };
 
   return (
-  <footer className="px-3 py-8 bg-indigo-200 dark:bg-gray-800 text-2 text-gray-500 dark:text-gray-200 transition-colors duration-200  bottom-0">
+  <footer className="px-3 py-8 bg-indigo-200 text-2 text-gray-500 transition-colors duration-200 bottom-0">
 		<div className="flex flex-col">
 			<div className="md:hidden mt-7 mx-auto w-11 h-px rounded-full">
 			</div>

@@ -55,9 +55,9 @@ export default function SnackEditForm() {
   };
 
   return (
-    <div className="p-0 md:p-10 mt-32 md:mt-0 bg-gray-100 items-center ">
+    <div className="p-0 md:p-10 mt-64 md:mt-0 bg-gray-100 items-center ">
       <div className="flex items-center justify-center h-screen ">
-        <div className="block p-10 bg-white w-full md:w-6/12 rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
+        <div className="block p-10 bg-white w-full md:w-6/12 mb-64 md:md-0 rounded-lg shadow-lg lg:p-12 lg:col-span-3 ">
           <form >
           <div className="mt-6 mb-6">
             <label htmlFor="name">Name:</label>

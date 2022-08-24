@@ -50,7 +50,7 @@ export default function SnackNewForm() {
         <div className="block p-10 bg-white w-full md:w-6/12 mb-64 md:md-0 rounded-lg shadow-lg lg:p-12 lg:col-span-3">
           <form >
           <div className="mt-6 mb-6">
-            <label htmlFor="name">Name:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="name">Name:</label>
             <input
               id="name"
               type="text"
@@ -65,12 +65,13 @@ export default function SnackNewForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow-lg
               "
               required
             />
             </div>
             <div className="mt-6 mb-6">
-            <label htmlFor="image">Image: </label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="image">Image: </label>
             <input
               id="image"
               type="text"
@@ -85,13 +86,14 @@ export default function SnackNewForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow-lg
               "
               required
             />
             </div>
             <div className="grid grid-cols-3 gap-4 grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
             <div className="mt-6 mb-6 ">
-            <label htmlFor="fiber">Fiber:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="fiber">Fiber:</label>
             <input
               id="fiber"
               type="number"
@@ -106,12 +108,13 @@ export default function SnackNewForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow-lg
               "
               required
             />
             </div>
             <div class="mt-6 mb-6">
-            <label htmlFor="protein">Protein:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="protein">Protein:</label>
             <input
               id="protein"
               type="number"
@@ -126,12 +129,13 @@ export default function SnackNewForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow-lg
               "
               required
             />
             </div>
             <div className="mt-6 mb-6">
-            <label htmlFor="added_sugar">Added Sugar:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="added_sugar">Added Sugar:</label>
             <input
               id="added_sugar"
               type="number"
@@ -146,13 +150,14 @@ export default function SnackNewForm() {
                         text-xl
                         border-gray-200 
                         rounded-lg
+                        shadow-lg
               "
               required
             />
             </div>
             </div>
             <div className="mt-6 mb-6">
-            <label htmlFor="is_healthy">Healthy:</label>
+            <label className="text-xl font-semibold text-indigo-400" htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"
               type="checkbox"
@@ -165,6 +170,7 @@ export default function SnackNewForm() {
                         border-gray-200
                         border-8
                         rounded-lg
+                        shadow-lg
               "
             />
             </div>

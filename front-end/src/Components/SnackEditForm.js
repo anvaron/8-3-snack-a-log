@@ -153,7 +153,7 @@ export default function SnackEditForm() {
             </div>
             </div>
             <div className="mt-6 mb-6">
-            <label className="block mb-2 text-xl font-bold text-gray-600" htmlFor="is_healthy">Healthy:</label>
+            <label className="text-xl font-bold text-gray-600" htmlFor="is_healthy">Healthy:</label>
             <input
               id="is_healthy"
               type="checkbox"

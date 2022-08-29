@@ -121,6 +121,7 @@ export default function SnackDetails() {
                 onClick={() => handleClick()}
                 type="button" 
                 className="w-full items-center border-l border-t border-b text-base font-bold rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Back to snacks"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" 
                      className="w-6 h-6 mx-auto object-center" 
@@ -134,6 +135,7 @@ export default function SnackDetails() {
                 onClick={() => handleDelete()} 
                 type="button" 
                 className="w-full items-center border text-base font-bold bg-red-800 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Delete data"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" 
                      className="w-6 h-6 mx-auto object-center" 
@@ -147,6 +149,7 @@ export default function SnackDetails() {
                 onClick={() => handleEdit()}
                 type="button" 
                 className="w-full items-center border-t border-b border-r text-base font-bold rounded-r-md bg-gray-900 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                data-bs-toggle="tooltip" data-bs-placement="top" title="Submit data"
               >
                 <svg  xmlns="http://www.w3.org/2000/svg" 
                       className="w-6 h-6 mx-auto object-center" 

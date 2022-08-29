@@ -52,8 +52,7 @@ export default function SnackDetails() {
             </h2>
             <h4 className="text-xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">
               <div className="flex-shrink-0 ">
-                <div className="container "
-                >
+                <div className="container mx-auto my-2">
                 {snack.is_healthy 
                   ? 
                   <p className="w-48 object-center items-center px-4 py-2  text-base rounded-full text-green-600  bg-green-200">
@@ -67,56 +66,6 @@ export default function SnackDetails() {
                 </div>
               </div>
             </h4>
-            {/* <ul className="mt-10">
-              <li>
-                <div className="flex">
-                    <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                          </svg>
-                        </div>
-                    </div>
-                    <div className="ml-4">
-                      <h4 className="text-lg leading-10 text-gray-900 font-semibold">
-                        Fiber: <span className="text-2xl font-bold text-indigo-500">{snack.fiber}g</span>
-                      </h4>
-                    </div>
-                </div>
-              </li>
-              <li className="mt-10">
-                <div className="flex">
-                    <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                          </svg>
-                        </div>
-                    </div>
-                    <div className="ml-4">
-                        <h5 className="text-lg leading-10 text-gray-900 font-semibold">
-                          Protein: <span className="text-2xl font-bold text-indigo-500">{snack.protein}g</span>
-                        </h5>
-                    </div>
-                </div>
-              </li>
-              <li className="mt-10">
-                  <div className="flex">
-                      <div className="flex-shrink-0">
-                          <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
-                          <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
-                          </svg>
-                          </div>
-                      </div>
-                      <div className="ml-4">
-                        <h5 className="text-lg leading-10 text-gray-900 font-semibold">
-                          Added sugar: <span className="text-2xl font-bold text-indigo-500">{snack.added_sugar}g</span>
-                        </h5>
-                      </div>
-                  </div>
-              </li>
-            </ul> */}
 
             <div class="container flex flex-col mx-auto w-full items-center justify-center bg-white dark:bg-gray-800 rounded-lg shadow">
               <ul class="flex flex-col divide divide-y">
@@ -126,7 +75,7 @@ export default function SnackDetails() {
                       <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium dark:text-white">
+                      <div class="font-medium text-left">
                         Fiber:
                       </div>
                       <div class="text-gray-600 dark:text-gray-200 text-sm">
@@ -144,7 +93,7 @@ export default function SnackDetails() {
                       <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium dark:text-white">
+                      <div class="font-medium text-left">
                         Protein:
                       </div>
                       <div class="text-gray-600 dark:text-gray-200 text-sm">
@@ -162,7 +111,7 @@ export default function SnackDetails() {
                       <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium dark:text-white">
+                      <div class="font-medium text-left">
                         Added Sugar:
                       </div>
                       <div class="text-gray-600 dark:text-gray-200 text-sm">

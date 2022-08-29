@@ -74,8 +74,7 @@ export default function SnackEditForm() {
                         border-gray-200 
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
               required
             />
             </div>
@@ -93,8 +92,7 @@ export default function SnackEditForm() {
                         border-gray-200 
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
               required
             />
             </div>
@@ -113,8 +111,7 @@ export default function SnackEditForm() {
                         border-gray-200 
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
               required
             />
             </div>
@@ -132,8 +129,7 @@ export default function SnackEditForm() {
                         border-gray-200 
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
               required
             />
             </div>
@@ -151,8 +147,7 @@ export default function SnackEditForm() {
                         border-gray-200 
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
               required
             />
             </div>
@@ -171,11 +166,10 @@ export default function SnackEditForm() {
                         border-gray-200
                         border-1
                         rounded-sm
-                        shadow-sm
-              "
+                        shadow-sm"
             />
             </div>
-            <div className="flex items-center mt-10 gap-2">
+            <div className="flex items-center mt-10 gap-1">
                   <button
                     onClick={() => handleClick()}
                     type="button" 

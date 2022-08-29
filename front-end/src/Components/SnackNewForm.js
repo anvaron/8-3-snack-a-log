@@ -58,15 +58,13 @@ export default function SnackNewForm() {
               onChange={handleTextChange}
               placeholder="Snack's name"
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
               required
             />
             </div>
@@ -79,15 +77,13 @@ export default function SnackNewForm() {
               onChange={handleTextChange}
               placeholder="Input the image's URL"
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
               required
             />
             </div>
@@ -101,15 +97,13 @@ export default function SnackNewForm() {
               onChange={handleTextChange}
               placeholder="0"
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
               required
             />
             </div>
@@ -122,15 +116,13 @@ export default function SnackNewForm() {
               onChange={handleTextChange}
               placeholder="0"
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
               required
             />
             </div>
@@ -143,15 +135,13 @@ export default function SnackNewForm() {
               onChange={handleTextChange}
               placeholder="0"
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
               required
             />
             </div>
@@ -164,30 +154,29 @@ export default function SnackNewForm() {
               onChange={handleCheckboxChange}
               checked={snack.is_healthy}
               className="
-              p-2
+                        p-4
                         m-4
                         text-sm 
                         border-gray-200
-                        border-8
-                        rounded-md
-                        shadow-md
-              "
+                        border-1
+                        rounded-sm
+                        shadow-sm"
             />
             </div>
-            <div className="flex items-center mt-10">
+            <div className="flex items-center mt-10 gap-1">
                   <button
                     onClick={() => handleClick()}
                     type="button" 
                     className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
                   >
-                    Back
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 mx-auto object-center" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M13.427 3.021h-7.427v-3.021l-6 5.39 6 5.61v-3h7.427c3.071 0 5.561 2.356 5.561 5.427 0 3.071-2.489 5.573-5.561 5.573h-7.427v5h7.427c5.84 0 10.573-4.734 10.573-10.573s-4.733-10.406-10.573-10.406z"/></svg>
                   </button>
                   <button
                     onClick={() => handleSubmit()}
                     type="button" 
                     className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-4"
                   >
-                    Submit
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 mx-auto object-center" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M24 0l-6 22-8.129-7.239 7.802-8.234-10.458 7.227-7.215-1.754 24-12zm-15 16.668v7.332l3.258-4.431-3.258-2.901z"/></svg>
                   </button>
                 </div>
           </form>

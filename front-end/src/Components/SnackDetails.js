@@ -47,7 +47,7 @@ export default function SnackDetails() {
       <div className="relative bg-white  p-4">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
           <div className="lg:col-start-2 md:pl-20">
-            <h2 className="text-6xl mt-10 mb-10 leading-8 font-extrabold text-indigo-900 tracking-tight sm:leading-9">
+            <h2 className="text-5xl mt-10 mb-10 leading-8 font-extrabold text-indigo-900 tracking-tight sm:leading-9">
               {snack.name}
             </h2>
             <h4 className="text-xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">
@@ -122,21 +122,39 @@ export default function SnackDetails() {
                 type="button" 
                 className="w-full items-center border-l border-t border-b text-base font-bold rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 mx-auto object-center" fill="#FFFFFF" viewBox="0 0 24 24"><path d="M13.427 3.021h-7.427v-3.021l-6 5.39 6 5.61v-3h7.427c3.071 0 5.561 2.356 5.561 5.427 0 3.071-2.489 5.573-5.561 5.573h-7.427v5h7.427c5.84 0 10.573-4.734 10.573-10.573s-4.733-10.406-10.573-10.406z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     className="w-6 h-6 mx-auto object-center" 
+                     fill="#FFFFFF" 
+                     viewBox="0 0 24 24"
+                >
+                  <path d="M13.427 3.021h-7.427v-3.021l-6 5.39 6 5.61v-3h7.427c3.071 0 5.561 2.356 5.561 5.427 0 3.071-2.489 5.573-5.561 5.573h-7.427v5h7.427c5.84 0 10.573-4.734 10.573-10.573s-4.733-10.406-10.573-10.406z"/>
+                </svg>
               </button>
               <button
                 onClick={() => handleDelete()} 
                 type="button" 
                 className="w-full items-center border text-base font-bold bg-red-800 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-4"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 mx-auto object-center" fill="#FFFFFF" viewBox="0 0 24 24" ><path d="M19 24h-14c-1.104 0-2-.896-2-2v-16h18v16c0 1.104-.896 2-2 2m-9-14c0-.552-.448-1-1-1s-1 .448-1 1v9c0 .552.448 1 1 1s1-.448 1-1v-9zm6 0c0-.552-.448-1-1-1s-1 .448-1 1v9c0 .552.448 1 1 1s1-.448 1-1v-9zm6-5h-20v-2h6v-1.5c0-.827.673-1.5 1.5-1.5h5c.825 0 1.5.671 1.5 1.5v1.5h6v2zm-12-2h4v-1h-4v1z"/></svg>
+                <svg xmlns="http://www.w3.org/2000/svg" 
+                     className="w-6 h-6 mx-auto object-center" 
+                     fill="#FFFFFF" 
+                     viewBox="0 0 24 24" 
+                >
+                  <path d="M19 24h-14c-1.104 0-2-.896-2-2v-16h18v16c0 1.104-.896 2-2 2m-9-14c0-.552-.448-1-1-1s-1 .448-1 1v9c0 .552.448 1 1 1s1-.448 1-1v-9zm6 0c0-.552-.448-1-1-1s-1 .448-1 1v9c0 .552.448 1 1 1s1-.448 1-1v-9zm6-5h-20v-2h6v-1.5c0-.827.673-1.5 1.5-1.5h5c.825 0 1.5.671 1.5 1.5v1.5h6v2zm-12-2h4v-1h-4v1z"/>
+                </svg>
               </button>
               <button
                 onClick={() => handleEdit()}
                 type="button" 
                 className="w-full items-center border-t border-b border-r text-base font-bold rounded-r-md bg-gray-900 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
               >
-                <svg xmlns="http://www.w3.org/2000/svg" className="w-8 h-8 mx-auto object-center" fill="#FFFFFF"  viewBox="0 0 24 24"><path d="M1.438 16.872l-1.438 7.128 7.127-1.438 12.642-12.64-5.69-5.69-12.641 12.64zm2.271 2.253l-.85-.849 11.141-11.125.849.849-11.14 11.125zm20.291-13.436l-2.817 2.819-5.69-5.691 2.816-2.817 5.691 5.689z"/></svg>
+                <svg  xmlns="http://www.w3.org/2000/svg" 
+                      className="w-6 h-6 mx-auto object-center" 
+                      fill="#FFFFFF"  
+                      viewBox="0 0 24 24"
+                >
+                  <path d="M1.438 16.872l-1.438 7.128 7.127-1.438 12.642-12.64-5.69-5.69-12.641 12.64zm2.271 2.253l-.85-.849 11.141-11.125.849.849-11.14 11.125zm20.291-13.436l-2.817 2.819-5.69-5.691 2.816-2.817 5.691 5.689z"/>
+                </svg>
               </button>
             </div>
           </div>

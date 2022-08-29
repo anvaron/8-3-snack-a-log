@@ -20,7 +20,7 @@ export default function App() {
     <div className="flex flex-col h-screen">
       <Router>
         <NavBar />
-        <main className="h-screen">
+        <main className="">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/snacks" element={<Index />} />

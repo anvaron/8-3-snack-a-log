@@ -94,7 +94,7 @@ export default function SnackDetails() {
                         </div>
                     </div>
                     <div className="ml-4">
-                        <h5 className="text-lg leading-10 text-gray-900  font-bold">
+                        <h5 className="text-lg leading-10 text-gray-900 font-bold">
                           Protein: {snack.protein}g
                         </h5>
                     </div>
@@ -121,21 +121,21 @@ export default function SnackDetails() {
               <button
                 onClick={() => handleClick()}
                 type="button" 
-                className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                className="w-full border-l border-t border-b text-base font-bold rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-2"
               >
                 Back
               </button>
               <button
                 onClick={() => handleDelete()} 
                 type="button" 
-                className="w-full border text-base font-medium bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                className="w-full border text-base font-bold bg-red-800 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-2"
               >
                 Delete
               </button>
               <button
                 onClick={() => handleEdit()}
                 type="button" 
-                className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-4"
+                className="w-full border-t border-b border-r text-base font-bold rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-2"
               >
                 Edit Snack
               </button>

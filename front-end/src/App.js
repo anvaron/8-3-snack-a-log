@@ -15,13 +15,12 @@ import Edit from "./Pages/Edit";
 import New from "./Pages/New";
 import NotFound from "./Pages/NotFound";
 
-//import "./App.css";
-
 export default function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col h-screen">
       <Router>
         <NavBar />
+        <main className="h-screen">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/snacks" element={<Index />} />
@@ -32,6 +31,7 @@ export default function App() {
           <Route path="/snacks/team" element={<ProjectTeam />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        </main>
         <Footer />
       </Router>
     </div>

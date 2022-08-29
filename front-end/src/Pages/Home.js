@@ -1,14 +1,4 @@
-import { Fragment } from 'react';
 import { useNavigate } from "react-router-dom";
-import { Popover, Transition } from '@headlessui/react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
-
-const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
-]
 
 export default function Home() {
   let navigate = useNavigate();
@@ -44,6 +34,5 @@ export default function Home() {
             </div>
         </div>
     </div>
-
   );
 }

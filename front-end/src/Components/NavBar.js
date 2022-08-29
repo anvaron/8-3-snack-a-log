@@ -1,7 +1,4 @@
-import { Link } from "react-router-dom";
-import { useState } from "react"
 import { useNavigate } from "react-router-dom";
-
 
 export default function NavBar() {
   let navigate = useNavigate();
@@ -22,7 +19,6 @@ export default function NavBar() {
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/project">Project</a>
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks/team">Team</a>
         </nav>
-
         <a href="/" className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center mb-4 md:mb-0">
           <span className="mr-1 text-3xl font-extrabold text-white">SNACK</span>
           
@@ -41,7 +37,7 @@ export default function NavBar() {
                         bg-gray-100 
                         border-0 
                         py-1 px-3 
-                        text-xl 
+                        text-2xl 
                         focus:outline-none 
                         hover:bg-gray-200 
                         rounded 
@@ -49,8 +45,8 @@ export default function NavBar() {
                         mt-4 md:mt-0
             "
           >
-            Create Snack
-            <svg className="h-5 w-5 ml-2" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.002 2c5.518 0 9.998 4.48 9.998 9.998 0 5.517-4.48 9.997-9.998 9.997-5.517 0-9.997-4.48-9.997-9.997 0-5.518 4.48-9.998 9.997-9.998zm0 1.5c-4.69 0-8.497 3.808-8.497 8.498s3.807 8.497 8.497 8.497 8.498-3.807 8.498-8.497-3.808-8.498-8.498-8.498zm-.747 7.75h-3.5c-.414 0-.75.336-.75.75s.336.75.75.75h3.5v3.5c0 .414.336.75.75.75s.75-.336.75-.75v-3.5h3.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-3.5v-3.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
+            Add Snack
+            <svg className="h-8 w-8 ml-2" clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.002 2c5.518 0 9.998 4.48 9.998 9.998 0 5.517-4.48 9.997-9.998 9.997-5.517 0-9.997-4.48-9.997-9.997 0-5.518 4.48-9.998 9.997-9.998zm0 1.5c-4.69 0-8.497 3.808-8.497 8.498s3.807 8.497 8.497 8.497 8.498-3.807 8.498-8.497-3.808-8.498-8.498-8.498zm-.747 7.75h-3.5c-.414 0-.75.336-.75.75s.336.75.75.75h3.5v3.5c0 .414.336.75.75.75s.75-.336.75-.75v-3.5h3.5c.414 0 .75-.336.75-.75s-.336-.75-.75-.75h-3.5v-3.5c0-.414-.336-.75-.75-.75s-.75.336-.75.75z" fill-rule="nonzero"/></svg>
           </button>
         </div>
       </div>

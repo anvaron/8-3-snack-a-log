@@ -67,15 +67,14 @@ export default function SnackEditForm() {
               value={snack.name}
               onChange={handleTextChange}
               placeholder="Snack's name"
-              className=" 
-                        border-gray-200 
-                        border-8 
-                        p-6 
+              className="
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
               required
             />
@@ -88,14 +87,13 @@ export default function SnackEditForm() {
               value={snack.image}
               onChange={handleTextChange}
               className=" 
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
               required
             />
@@ -109,14 +107,13 @@ export default function SnackEditForm() {
               value={snack.fiber}
               onChange={handleTextChange}
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
               required
             />
@@ -129,14 +126,13 @@ export default function SnackEditForm() {
               value={snack.protein}
               onChange={handleTextChange}
               className=" 
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
               required
             />
@@ -149,14 +145,13 @@ export default function SnackEditForm() {
               value={snack.added_sugar}
               onChange={handleTextChange}
               className="
-                        border-gray-200 
-                        border-8 
-                        p-6 
+                        p-4 
                         w-full 
                         text-xl
                         border-gray-200 
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
               required
             />
@@ -170,12 +165,13 @@ export default function SnackEditForm() {
               onChange={handleCheckboxChange}
               checked={snack.is_healthy}
               className="
+                        p-4
                         m-4
                         text-sm 
                         border-gray-200
-                        border-8
-                        rounded-lg
-                        shadow-md
+                        border-1
+                        rounded-sm
+                        shadow-sm
               "
             />
             </div>

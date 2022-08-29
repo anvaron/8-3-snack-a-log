@@ -47,19 +47,19 @@ export default function SnackDetails() {
       <div className="relative bg-white  p-4">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
           <div className="lg:col-start-2 md:pl-20">
-            <h2 className="text-4xl mt-10 mb-10 leading-8 font-extrabold text-indigo-500 tracking-tight sm:leading-9">
+            <h2 className="text-6xl mt-10 mb-10 leading-8 font-extrabold text-indigo-900 tracking-tight sm:leading-9">
               {snack.name}
             </h2>
             <h4 className="text-xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">
               <div className="flex-shrink-0 ">
-                <div className="container mx-auto my-2">
+                <div className="container  my-2">
                 {snack.is_healthy 
                   ? 
-                  <p className="w-48 object-center items-center px-4 py-2  text-base rounded-full text-green-600  bg-green-200">
+                  <p className="w-48 mx-auto object-center items-center px-4 py-2  text-base rounded-full text-green-600 bg-green-200">
                     Healthy Snack
                   </p> 
                   : 
-                  <p className="w-48 object-center items-center px-4 py-2  text-base rounded-full text-red-600 bg-red-200 hover:bg-red-300">
+                  <p className="w-48 mx-auto object-center items-center px-4 py-2  text-base rounded-full text-red-600 bg-red-200 hover:bg-red-300">
                     Unhealthy Snack
                   </p>
                 }
@@ -78,9 +78,6 @@ export default function SnackDetails() {
                       <div class="font-medium text-left">
                         Fiber:
                       </div>
-                      <div class="text-gray-600 dark:text-gray-200 text-sm">
-                          
-                      </div>
                     </div>
                     <div class="text-gray-600 dark:text-gray-200 text-xs">
                       <span className="text-2xl font-bold text-indigo-500">{snack.fiber}g</span>
@@ -96,9 +93,6 @@ export default function SnackDetails() {
                       <div class="font-medium text-left">
                         Protein:
                       </div>
-                      <div class="text-gray-600 dark:text-gray-200 text-sm">
-                      
-                      </div>
                     </div>
                     <div class="text-gray-600 dark:text-gray-200 text-xs">
                       <span className="text-2xl font-bold text-indigo-500">{snack.protein}g</span>
@@ -113,9 +107,6 @@ export default function SnackDetails() {
                     <div class="flex-1 pl-1 mr-16">
                       <div class="font-medium text-left">
                         Added Sugar:
-                      </div>
-                      <div class="text-gray-600 dark:text-gray-200 text-sm">
-                      
                       </div>
                     </div>
                     <div class="text-gray-600 dark:text-gray-200 text-xs">

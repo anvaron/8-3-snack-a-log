@@ -22,7 +22,7 @@ export default function NavBar() {
   };
 
   return (
-    <header className=" body-font bg-indigo-600 sticky top-0 z-50">
+    <header className=" body-font bg-indigo-600 sticky top-0 z-50" style="z-index: 1000">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks">Snacks</a>

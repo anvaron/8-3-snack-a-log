@@ -31,9 +31,8 @@ export default function App() {
           <Route path="/snacks/team" element={<ProjectTeam />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
         </main>
-        
+        <Footer />
       </Router>
     </div>
   );

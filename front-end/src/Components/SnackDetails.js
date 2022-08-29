@@ -78,12 +78,9 @@ export default function SnackDetails() {
                         </div>
                     </div>
                     <div className="ml-4">
-                        <h4 className="text-lg leading-10 text-gray-900 font-bold">
-                          Fiber: {snack.fiber}g
-                        </h4>
-                        {/* <p class="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
-                            Know everything about your business in a single glance with your new dashboard.
-                        </p> */}
+                      <h4 className="text-lg leading-10 text-gray-900 font-bold">
+                        Fiber: {snack.fiber}g
+                      </h4>
                     </div>
                 </div>
               </li>
@@ -100,9 +97,6 @@ export default function SnackDetails() {
                         <h5 className="text-lg leading-10 text-gray-900  font-bold">
                           Protein: {snack.protein}g
                         </h5>
-                        {/* <p class="mt-2 text-base leading-6 text-gray-500 dark:text-gray-300">
-                            All your orders in one place so you can manage your delivery, collection, asap and pre-orders in one place.
-                        </p> */}
                     </div>
                 </div>
               </li>
@@ -116,10 +110,9 @@ export default function SnackDetails() {
                           </div>
                       </div>
                       <div className="ml-4">
-                          <h5 className="text-lg leading-10 text-gray-900  font-bold">
-                            Added sugar: {snack.added_sugar}g
-                          </h5>
-                          
+                        <h5 className="text-lg leading-10 text-gray-900  font-bold">
+                          Added sugar: {snack.added_sugar}g
+                        </h5>
                       </div>
                   </div>
               </li>
@@ -128,21 +121,21 @@ export default function SnackDetails() {
               <button
                 onClick={() => handleClick()}
                 type="button" 
-                className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-2"
+                className="w-full border-l border-t border-b text-base font-medium rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
               >
                 Back
               </button>
               <button
                 onClick={() => handleDelete()} 
                 type="button" 
-                className="w-full border text-base font-medium bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-2"
+                className="w-full border text-base font-medium bg-red-600 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-4"
               >
                 Delete
               </button>
               <button
                 onClick={() => handleEdit()}
                 type="button" 
-                className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-2"
+                className="w-full border-t border-b border-r text-base font-medium rounded-r-md bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white w-full transition ease-in duration-200  px-4 py-4"
               >
                 Edit Snack
               </button>

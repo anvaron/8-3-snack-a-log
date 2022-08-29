@@ -47,7 +47,7 @@ export default function SnackDetails() {
       <div className="relative bg-white  p-4">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
           <div className="lg:col-start-2 md:pl-20">
-            <h2 className="text-3xl mt-10 mb-10 leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">
+            <h2 className="text-4xl mt-10 mb-10 leading-8 font-extrabold text-indigo-500 tracking-tight sm:leading-9">
               {snack.name}
             </h2>
             <h4 className="text-xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">
@@ -71,15 +71,15 @@ export default function SnackDetails() {
               <li>
                 <div className="flex">
                     <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-400 text-white">
+                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                           </svg>
                         </div>
                     </div>
                     <div className="ml-4">
-                      <h4 className="text-lg leading-10 text-gray-900 font-bold">
-                        Fiber: {snack.fiber}g
+                      <h4 className="text-lg leading-10 text-gray-900 font-semibold">
+                        Fiber: <span className="text-2xl font-bold text-indigo-500">{snack.fiber}g</span>
                       </h4>
                     </div>
                 </div>
@@ -87,15 +87,15 @@ export default function SnackDetails() {
               <li className="mt-10">
                 <div className="flex">
                     <div className="flex-shrink-0">
-                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-400 text-white">
+                        <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                           </svg>
                         </div>
                     </div>
                     <div className="ml-4">
-                        <h5 className="text-lg leading-10 text-gray-900 font-bold">
-                          Protein: {snack.protein}g
+                        <h5 className="text-lg leading-10 text-gray-900 font-semibold">
+                          Protein: <span className="text-2xl font-bold text-indigo-500">{snack.protein}g</span>
                         </h5>
                     </div>
                 </div>
@@ -103,15 +103,15 @@ export default function SnackDetails() {
               <li className="mt-10">
                   <div className="flex">
                       <div className="flex-shrink-0">
-                          <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-400 text-white">
+                          <div className="flex items-center justify-center h-10 w-10 rounded-md bg-gray-800 text-white">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                             <path stroke-linecap="round" stroke-linejoin="round" d="M5 13l4 4L19 7" />
                           </svg>
                           </div>
                       </div>
                       <div className="ml-4">
-                        <h5 className="text-lg leading-10 text-gray-900  font-bold">
-                          Added sugar: {snack.added_sugar}g
+                        <h5 className="text-lg leading-10 text-gray-900 font-semibold">
+                          Added sugar: <span className="text-2xl font-bold text-indigo-500">{snack.added_sugar}g</span>
                         </h5>
                       </div>
                   </div>

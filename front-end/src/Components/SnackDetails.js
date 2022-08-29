@@ -67,7 +67,7 @@ export default function SnackDetails() {
               </div>
             </h4>
 
-            <div class="container flex flex-col mx-auto w-full items-center justify-center bg-white dark:bg-gray-800 rounded-lg shadow">
+            <div class="container flex flex-col mx-auto w-full items-center justify-center bg-white rounded-lg shadow">
               <ul class="flex flex-col divide divide-y">
                 <li class="flex flex-row">
                   <div class="select-none cursor-pointer flex flex-1 items-center p-4">
@@ -79,7 +79,7 @@ export default function SnackDetails() {
                         Fiber:
                       </div>
                     </div>
-                    <div class="text-gray-600 dark:text-gray-200 text-xs">
+                    <div class="text-gray-600 text-xs">
                       <span className="text-2xl font-bold text-indigo-500">{snack.fiber}g</span>
                     </div>
                   </div>
@@ -94,7 +94,7 @@ export default function SnackDetails() {
                         Protein:
                       </div>
                     </div>
-                    <div class="text-gray-600 dark:text-gray-200 text-xs">
+                    <div class="text-gray-600 text-xs">
                       <span className="text-2xl font-bold text-indigo-500">{snack.protein}g</span>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ export default function SnackDetails() {
                         Added Sugar:
                       </div>
                     </div>
-                    <div class="text-gray-600 dark:text-gray-200 text-xs">
+                    <div class="text-gray-600 text-xs">
                       <span className="text-2xl font-bold text-indigo-500">{snack.added_sugar}g</span>
                     </div>
                   </div>

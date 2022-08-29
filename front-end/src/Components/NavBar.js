@@ -10,19 +10,13 @@ export default function NavBar() {
     navigate(`/snacks/new`);
   }
 
-  // const classes = useStyles();
-  const [open, setOpen] = useState(false);
-
-  const handleOpen = () => {
-    setOpen(true);
-  };
-
-  const handleClose = () => {
-    setOpen(false);
-  };
-
+  const navStyle = {
+    'z-index' : '1000',
+  }
+ 
+  
   return (
-    <header className=" body-font bg-indigo-600 sticky top-0 z-50" style="z-index: 1000">
+    <header className=" body-font bg-indigo-600 sticky top-0 z-50" style={ navStyle }>
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
         <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
           <a className="mr-5 text-white hover:text-gray-200 text-xl font-bold" href="/snacks">Snacks</a>

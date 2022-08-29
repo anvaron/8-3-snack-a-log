@@ -96,7 +96,7 @@ export default function SnackEditForm() {
               required
             />
             </div>
-            <div className="grid grid-cols-3 gap-4 sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3" >
+            <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3" >
             <div className="mt-6 mb-6">
             <label className="block mb-2 text-xl font-bold text-gray-600" htmlFor="fiber">Fiber:</label>
             <input

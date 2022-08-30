@@ -16,8 +16,8 @@ export default function Project() {
             </div>
           </div>
           <div className="w-full lg:w-1/2 px-8">
-            <h2 className="text-2xl sm:text-xl text-indigo-500 font-bold text-center py-4">
-              PERN Stack technologies
+            <h2 className="text-2xl sm:text-xl text-indigo-500 font-extrabold text-center py-4">
+              PERN Stack Technologies
             </h2>
             <h4 className="mt-4 mb-4 my-4 text-2xl font-semibold">
               Backend

@@ -21,8 +21,8 @@ export default function ProjectTeam() {
 											<p className="text-2xl text-indigo-900 font-bold">
 												Edwin Codrington
 											</p>
-											<p className="text-xl text-gray-500 font-normal">
-												Fullstack dev
+											<p className="text-xl text-gray-800 font-normal">
+												Fullstack Dev
 											</p>
 											<p className="text-md text-gray-500 w-60 mx-auto py-4 font-light">
 												Full stack software engineer with great passion for working with car's software systems and computers.
@@ -67,8 +67,8 @@ export default function ProjectTeam() {
 										<p className="text-2xl text-indigo-900 font-bold">
 											Oscar A Varon
 										</p>
-										<p className="text-xl text-gray-500 font-normal">
-											Fullstack dev
+										<p className="text-xl text-gray-800 font-normal">
+											Fullstack Dev
 										</p>
 										<p className="text-md text-gray-500 w-60 mx-auto py-4 font-light">
 											Full stack software engineer always enthusiastic for solving problems through innovative solutions.

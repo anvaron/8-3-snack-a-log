@@ -19,7 +19,7 @@ export default function Project() {
             <h2 className="text-2xl sm:text-xl text-indigo-500 font-bold text-center py-4">
               PERN Stack technologies
             </h2>
-            <h4 className="mt-4 mb-4 my-4 text-xl font-semibold">
+            <h4 className="mt-4 mb-4 my-4 text-2xl font-semibold">
               Backend
             </h4>
             <ul className="space-y-12">
@@ -74,7 +74,8 @@ export default function Project() {
                 </div>
               </li>
             </ul>
-            <h4 className="mt-4 mb-4 my-4 text-xl font-semibold">
+            <hr/>
+            <h4 className="mt-8 mb-4 my-4 text-2xl font-semibold">
               Frontend
             </h4>
             <ul className="space-y-12">

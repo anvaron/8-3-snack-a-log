@@ -1,6 +1,7 @@
 
 export default function ProjectTeam() {
   return (
+		<>
     <div className="box p-4 bg-blue-100">
         <p className="mt-10 mb-10 text-center text-4xl font-bold text-gray-800">
             Professional Team
@@ -11,11 +12,11 @@ export default function ProjectTeam() {
         <div className="items-center justify-center h-screen flex items-center space-y-24 md:space-y-0 pt-64 md:pt-10 lg:pt-0 flex-col md:flex-row justify evenly">
             <div className="p-4 relative">
                 <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
-                    <a href="#" className="block relative">
+                    <a href="https://github.com/ecod24" className="block relative">
                         <img alt="profil" src="https://avatars.githubusercontent.com/u/23618854?v=4" class="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
                     </a>
                 </div>
-                <div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
+                <div className="bg-white rounded-lg shadow px-8 py-4 pt-24">
                     <div className="text-center">
 											<p className="text-2xl text-gray-800 dark:text-white font-bold">
 												Edwin Codrington
@@ -52,11 +53,11 @@ export default function ProjectTeam() {
             </div>
             <div className="p-4 relative">
 							<div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
-								<a href="#" className="block relative">
+								<a href="https://github.com/anvaron" className="block relative">
 									<img alt="profil" src="https://avatars.githubusercontent.com/u/5624459?v=4" className="mx-auto object-cover rounded-lg h-40 w-40  border-2 border-white dark:border-gray-800"/>
 								</a>
 							</div>
-							<div className="bg-white dark:bg-gray-800 rounded-lg shadow px-8 py-4 pt-24">
+							<div className="bg-white rounded-lg shadow px-8 py-4 pt-24">
 									<div className="text-center">
 										<p className="text-2xl text-gray-800 dark:text-white font-bold">
 											Oscar A Varon
@@ -96,5 +97,6 @@ export default function ProjectTeam() {
             </div>
         </div>
     </div>
+		</>
   );
 }

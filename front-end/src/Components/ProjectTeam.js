@@ -9,7 +9,7 @@ export default function ProjectTeam() {
         <p className="text-center mb-10 text-xl font-normal text-gray-500">
             Meet the developers team behind the project
         </p>
-        <div className="items-center justify-center flex items-center space-y-24 md:space-y-0 pt-64 md:pt-10 lg:pt-0 flex-col md:flex-row justify evenly md:mt-64">
+        <div className="items-center justify-center flex items-center space-y-24 md:space-y-0 pt-64 md:pt-10 lg:pt-0 flex-col md:flex-row justify evenly md:mt-56">
             <div className="p-4 relative">
                 <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
                     <a href="https://github.com/ecod24" className="block relative">

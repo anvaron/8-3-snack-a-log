@@ -47,7 +47,7 @@ export default function SnackDetails() {
       <div className="relative bg-white  p-4">
         <div className="lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-12 lg:items-center">
           <div className="lg:col-start-2 md:pl-20">
-            <h2 className="text-5xl mt-10 mb-10 leading-8 font-extrabold text-indigo-900 tracking-tight sm:leading-9 leading-3">
+            <h2 className="text-4xl mt-10 mb-10 font-extrabold text-indigo-900 tracking-tight sm:leading-9 leading-10">
               {snack.name}
             </h2>
             <h4 className="text-xl leading-8 font-extrabold text-gray-900 tracking-tight sm:leading-9">

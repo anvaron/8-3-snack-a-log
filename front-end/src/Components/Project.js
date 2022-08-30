@@ -6,7 +6,7 @@ export default function Project() {
         <div className="flex flex-wrap -mx-8">
           <div className="w-full lg:w-1/2 px-8">
             <div className="mb-12 lg:mb-0 pb-12 lg:pb-0 border-b lg:border-b-0">
-              <h2 className="mt-20 mb-20 text-3xl lg:text-4xl font-bold font-heading dark:text-white">
+              <h2 className="mt-20 mb-20 text-3xl lg:text-4xl font-bold font-heading">
                 The Snack a Log project is based on the PERN Stack
               </h2>
               <p className="mb-8 leading-loose text-gray-500 ">
@@ -31,7 +31,7 @@ export default function Project() {
                   </div>
                   <div className="px-4">
                     <p className="text-gray-500 leading-loose">
-                        NodeJS as a JS server environmment
+                      NodeJS as a JS server environmment
                     </p>
                   </div>
               </li>
@@ -42,7 +42,7 @@ export default function Project() {
                   </span>
                 </div>
                 <div className="px-4">
-                  <p className="text-gray-500 dark:text-gray-300 leading-loose">
+                  <p className="text-gray-500 leading-loose">
                     ExpressJs as a backend framework for Node.js
                   </p>
                 </div>

@@ -17,10 +17,10 @@ import NotFound from "./Pages/NotFound";
 
 export default function App() {
   return (
-    <div className="flex flex-col h-screen">
+    <div className="flex flex-col min-h-screen">
       <Router>
         <NavBar />
-        <main className="">
+        <main className="flex-grow">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/snacks" element={<Index />} />

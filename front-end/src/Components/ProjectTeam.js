@@ -13,7 +13,7 @@ export default function ProjectTeam() {
             <div className="p-4 relative">
                 <div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
                     <a href="https://github.com/ecod24" className="block relative">
-                        <img alt="profil" src="https://avatars.githubusercontent.com/u/23618854?v=4" class="mx-auto object-cover rounded-lg h-40 w-40 border-2 border-white"/>
+                        <img alt="profil" src="https://avatars.githubusercontent.com/u/23618854?v=4" class="mx-auto object-cover rounded-lg h-40 w-40 border-4 border-white shadow-sm"/>
                     </a>
                 </div>
                 <div className="bg-white rounded-lg shadow px-8 py-4 pt-24">
@@ -54,7 +54,7 @@ export default function ProjectTeam() {
             <div className="p-4 relative">
 							<div className="text-center mb-4 absolute -top-16 right-1/2 transform translate-x-1/2">
 								<a href="https://github.com/anvaron" className="block relative">
-									<img alt="profil" src="https://avatars.githubusercontent.com/u/5624459?v=4" className="mx-auto object-cover rounded-lg h-40 w-40 border-2 border-white"/>
+									<img alt="profil" src="https://avatars.githubusercontent.com/u/5624459?v=4" className="mx-auto object-cover rounded-lg h-40 w-40 border-4 border-white shadow-sm"/>
 								</a>
 							</div>
 							<div className="bg-white rounded-lg shadow px-8 py-4 pt-24">

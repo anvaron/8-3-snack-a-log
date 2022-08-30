@@ -74,7 +74,6 @@ export default function Project() {
                 </div>
               </li>
             </ul>
-            <hr/>
             <h4 className="mt-8 mb-4 my-4 text-2xl font-semibold">
               Frontend
             </h4>

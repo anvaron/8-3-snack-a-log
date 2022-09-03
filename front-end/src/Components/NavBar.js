@@ -8,7 +8,7 @@ export default function NavBar() {
   }
 
   const navStyle = {
-    'z-index' : '1000',
+    'zIndex' : '1000',
   }
  
   return (

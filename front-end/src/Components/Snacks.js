@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import Snack from "./Snack";
 
 const API = process.env.REACT_APP_API_URL;
-console.log(API)
+
 export default function Snacks() {
 
   const [snacks, setSnacks] = useState([]);

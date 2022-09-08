@@ -59,7 +59,7 @@ export default function SnackDetails() {
                     Healthy Snack
                   </p> 
                   : 
-                  <p className="w-48 mx-auto object-center items-center px-4 py-2  text-base rounded-full text-red-600 bg-red-200 hover:bg-red-300">
+                  <p className="w-48 mx-auto object-center items-center px-4 py-2  text-base rounded-full text-white bg-red-600 hover:bg-red-800">
                     Unhealthy Snack
                   </p>
                 }
@@ -67,14 +67,14 @@ export default function SnackDetails() {
               </div>
             </h4>
             <div class="container flex flex-col mx-auto w-full items-center justify-center bg-white rounded-lg shadow">
-              <ul class="flex flex-col divide divide-y">
+              <ul class="w-full flex flex-col divide divide-y">
                 <li class="flex flex-row">
                   <div class="select-none cursor-pointer flex flex-1 items-center p-4">
                     <div class="flex flex-col w-10 h-10 justify-center items-center mr-4">
-                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
+                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21 4.009c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm2.449 7.882 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium text-left">
+                      <div class="font-medium text-md text-left">
                         Fiber:
                       </div>
                     </div>
@@ -86,10 +86,10 @@ export default function SnackDetails() {
                 <li class="flex flex-row">
                   <div class="select-none cursor-pointer flex flex-1 items-center p-4">
                     <div class="flex flex-col w-10 h-10 justify-center items-center mr-4">
-                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
+                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21 4.009c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm2.449 7.882 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium text-left">
+                      <div class="font-medium text-md text-left">
                         Protein:
                       </div>
                     </div>
@@ -101,10 +101,10 @@ export default function SnackDetails() {
                 <li class="flex flex-row">
                   <div class="select-none cursor-pointer flex flex-1 items-center p-4">
                     <div class="flex flex-col w-10 h-10 justify-center items-center mr-4">
-                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 4v16.002c0 .385.22.735.567.902.346.166.758.119 1.058-.121l4.725-3.781h12.65c.552 0 1-.448 1-1v-12.002c0-.552-.448-1-1-1h-18c-.552 0-1 .448-1 1zm18.5 11.502h-12.677l-4.323 3.46v-14.462h17zm-8.502-6.5c.414 0 .75.336.75.75v3.5c0 .414-.336.75-.75.75s-.75-.336-.75-.75v-3.5c0-.414.336-.75.75-.75zm.002-3c.552 0 1 .448 1 1s-.448 1-1 1-1-.448-1-1 .448-1 1-1z" fill-rule="nonzero"/></svg>
+                      <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21 4.009c0-.478-.379-1-1-1h-16c-.62 0-1 .519-1 1v16c0 .621.52 1 1 1h16c.478 0 1-.379 1-1zm-16.5.5h15v15h-15zm2.449 7.882 3.851 3.43c.142.128.321.19.499.19.202 0 .405-.081.552-.242l5.953-6.509c.131-.143.196-.323.196-.502 0-.41-.331-.747-.748-.747-.204 0-.405.082-.554.243l-5.453 5.962-3.298-2.938c-.144-.127-.321-.19-.499-.19-.415 0-.748.335-.748.746 0 .205.084.409.249.557z" fill-rule="nonzero"/></svg>
                     </div>
                     <div class="flex-1 pl-1 mr-16">
-                      <div class="font-medium text-left">
+                      <div class="font-medium text-md text-left">
                         Added Sugar:
                       </div>
                     </div>
@@ -119,7 +119,7 @@ export default function SnackDetails() {
               <button
                 onClick={() => handleClick()}
                 type="button" 
-                className="w-full items-center border-l border-t border-b text-base font-bold rounded-l-md bg-gray-600 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                className="w-full items-center border-l border-t border-b text-base font-bold rounded-l-md bg-gray-900 hover:bg-gray-700 focus:ring-gray-200 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
                 data-bs-toggle="tooltip" data-bs-placement="top" title="Back to snacks"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" 
@@ -133,7 +133,7 @@ export default function SnackDetails() {
               <button
                 onClick={() => handleDelete()} 
                 type="button" 
-                className="w-full items-center border text-base font-bold bg-red-800 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white w-full transition ease-in duration-200 px-4 py-4"
+                className="w-full items-center border text-base font-bold bg-gray-900 hover:bg-gray-700 focus:ring-gray-500 focus:ring-offset-gray-200 text-white w-full transition ease-in duration-200 px-4 py-4"
                 data-bs-toggle="tooltip" data-bs-placement="top" title="Delete data"
               >
                 <svg xmlns="http://www.w3.org/2000/svg" 
@@ -160,7 +160,7 @@ export default function SnackDetails() {
               </button>
             </div>
           </div>
-          <div className="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
+          <div className="mt-10 p-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
             <div className="flex-shrink-0 absolute top-2 right-2 z-50">
             <div className=" flex items-center mx-auto justify-center h-20 w-20 rounded-md bg-indigo-200 text-white p-4">
             {snack.is_healthy 

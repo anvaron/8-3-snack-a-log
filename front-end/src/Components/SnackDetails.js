@@ -66,7 +66,6 @@ export default function SnackDetails() {
                 </div>
               </div>
             </h4>
-
             <div class="container flex flex-col mx-auto w-full items-center justify-center bg-white rounded-lg shadow">
               <ul class="flex flex-col divide divide-y">
                 <li class="flex flex-row">
@@ -163,16 +162,7 @@ export default function SnackDetails() {
           </div>
           <div className="mt-10 -mx-4 md:-mx-12 relative lg:mt-0 lg:col-start-1">
             <div className="flex-shrink-0 absolute top-2 right-2 z-50">
-            <div className=" flex 
-                          items-center 
-                          mx-auto justify-center 
-                          h-20 
-                          w-20 
-                          rounded-md 
-                          bg-indigo-200 
-                          text-white
-                          p-4"
-            >
+            <div className=" flex items-center mx-auto justify-center h-20 w-20 rounded-md bg-indigo-200 text-white p-4">
             {snack.is_healthy 
               ? 
               (<img className="max-h-40 w-full object-cover" src={heartSolid} alt="healthy food" />) 
@@ -185,6 +175,6 @@ export default function SnackDetails() {
           </div>
         </div>
     </div>
-  </div>
+    </div>
   );
 }

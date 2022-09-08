@@ -13,21 +13,21 @@ export default function Footer() {
 						<Link
 							to="/" 
 							aria-current="page"
-							className="hover:text-gray-700 dark:hover:text-white font-semibold"
+							className="hover:text-gray-700 text-md font-semibold"
 						>
 							Home
 						</Link>
 						<Link
 							to="/snacks/project"
 							aria-current="page" 
-							className="hover:text-gray-700 dark:hover:text-white font-semibold"
+							className="hover:text-gray-700 text-md font-semibold"
 						>
 							Project
 						</Link>
 						<Link
 							to="/snacks/team"
 							aria-current="page"
-							className="hover:text-gray-700 dark:hover:text-white font-semibold"
+							className="hover:text-gray-700 text-md font-semibold"
 						>
 							Team
 						</Link>
